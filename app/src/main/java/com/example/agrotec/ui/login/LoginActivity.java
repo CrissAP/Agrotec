@@ -5,6 +5,7 @@ import android.app.Activity;
 import androidx.lifecycle.Observer;
 import androidx.lifecycle.ViewModelProviders;
 
+import android.content.Intent;
 import android.os.Bundle;
 
 import androidx.annotation.Nullable;
@@ -23,6 +24,8 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 import com.example.agrotec.R;
+import com.example.agrotec.Registro;
+import com.example.agrotec.det_producto;
 import com.example.agrotec.ui.login.LoginViewModel;
 import com.example.agrotec.ui.login.LoginViewModelFactory;
 
@@ -55,6 +58,17 @@ public class LoginActivity extends AppCompatActivity {
                 if (loginFormState.getPasswordError() != null) {
                     passwordEditText.setError(getString(loginFormState.getPasswordError()));
                 }
+
+                Button btn = (Button) findViewById(R.id.login);
+                btn.setOnClickListener(new View.OnClickListener() {
+                    @Override
+                    public void onClick(View v) {
+                        Intent intent = new Intent (v.getContext(), det_producto.class);
+                        startActivity(intent);
+                    }
+                });
+
+
             }
         });
 
@@ -128,4 +142,5 @@ public class LoginActivity extends AppCompatActivity {
     private void showLoginFailed(@StringRes Integer errorString) {
         Toast.makeText(getApplicationContext(), errorString, Toast.LENGTH_SHORT).show();
     }
+
 }

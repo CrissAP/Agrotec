@@ -35,7 +35,7 @@
         android:layout_marginBottom="64dp"
         android:backgroundTint="#03A9F4"
         android:enabled="false"
-        android:text="USUARIO"
+        android:text="INGRESAR"
         android:textColor="#FFFFFF"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"

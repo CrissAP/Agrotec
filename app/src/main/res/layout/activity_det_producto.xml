@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".det_producto">
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="108dp"
+        android:layout_height="39dp"
+        android:layout_marginTop="587dp"
+        android:layout_marginBottom="105dp"
+        android:backgroundTint="#4CAF50"
+        android:text="+"
+        android:textColor="#FFFFFF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.874"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="111dp"
+        android:layout_height="34dp"
+        android:layout_marginTop="592dp"
+        android:layout_marginBottom="105dp"
+        android:backgroundTint="#F44336"
+        android:text="-"
+        android:textColor="#FFFFFF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.09"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/login2"
+        android:layout_width="119dp"
+        android:layout_height="53dp"
+        android:layout_gravity="start"
+        android:layout_marginTop="664dp"
+        android:layout_marginBottom="14dp"
+        android:backgroundTint="#F40303"
+        android:enabled="false"
+        android:text="CANCELAR"
+        android:textColor="#FFFFFF"
+        android:textColorHighlight="#FF0000"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/login4"
+        android:layout_width="108dp"
+        android:layout_height="53dp"
+        android:layout_gravity="start"
+        android:layout_marginTop="587dp"
+        android:layout_marginBottom="91dp"
+        android:backgroundTint="#03A9F4"
+        android:enabled="false"
+        android:text="AGREGRAR A CARRITO"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="211dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="36dp"
+        android:layout_marginBottom="655dp"
+        android:text="UVA DE MESA"
+        android:textColor="#000000"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <TextView
+        android:id="@+id/textView17"
+        android:layout_width="214dp"
+        android:layout_height="51dp"
+        android:layout_marginTop="220dp"
+        android:layout_marginBottom="460dp"
+        android:text="Descripción"
+        android:textColor="#000000"
+        android:textSize="36sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.106"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView19"
+        android:layout_width="176dp"
+        android:layout_height="61dp"
+        android:layout_marginTop="522dp"
+        android:layout_marginBottom="148dp"
+        android:text="Cantidad :"
+        android:textColor="#000000"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.114"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView20"
+        android:layout_width="184dp"
+        android:layout_height="45dp"
+        android:layout_marginBottom="164dp"
+        android:text="20.00"
+        android:textColor="#000000"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.929"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="216dp"
+        android:layout_height="176dp"
+        android:layout_marginTop="36dp"
+        android:layout_marginBottom="519dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/uva" />
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="481dp"
+        android:layout_marginBottom="231dp"
+        android:text="CAÑETE "
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.083"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="281dp"
+        android:layout_marginBottom="431dp"
+        android:text="Codigo del Producto : 61612"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.125"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="121dp"
+        android:layout_height="53dp"
+        android:layout_marginTop="104dp"
+        android:layout_marginBottom="574dp"
+        android:text="/S 13 "
+        android:textColor="#FF0000"
+        android:textSize="36sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.793"
+        app:layout_constraintStart_toStartOf="@+id/imageView3"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView15"
+        android:layout_width="357dp"
+        android:layout_height="153dp"
+        android:layout_marginTop="312dp"
+        android:layout_marginBottom="266dp"
+        android:text="PATRON 1103 PAULSEN - VARIEDAD SIN SEMILLAS  Estación: Muy tardía. Fecha Brotación: 23 de marzo. Fecha Floración: 10 de mayo. Fecha Envero: 29 de agosto. Fecha Maduración: 30 de septiembre. Fecha caída hoja: 8 de diciembre.  También es conocida como Imperial o Don Mariano, tiene unos racimos grandes y grano ovoidal, de pulpa crujiente y sabor neutro. La piel es pruinosa, consistente, de color violáceo. Es una variedad muy vigorosa. La resistencia en la cepa y en el transporte es elevada; la cosecha llega hasta Navidad."
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView16"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="157dp"
+        android:layout_marginBottom="550dp"
+        android:text="Precio por Caja"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.793"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
