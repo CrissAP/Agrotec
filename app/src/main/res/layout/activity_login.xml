@@ -91,7 +91,7 @@
         android:layout_marginBottom="64dp"
         android:backgroundTint="#4CAF50"
         android:enabled="false"
-        android:text="CONTRASEÑA"
+        android:text="REGISTRARSE"
         android:textColor="#FFFFFF"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"

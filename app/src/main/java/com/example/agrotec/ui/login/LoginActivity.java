@@ -24,6 +24,7 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 import com.example.agrotec.Met_page;
+import com.example.agrotec.Protuctos;
 import com.example.agrotec.R;
 import com.example.agrotec.Registro;
 import com.example.agrotec.Select_fecha;
@@ -62,11 +63,20 @@ public class LoginActivity extends AppCompatActivity {
                     passwordEditText.setError(getString(loginFormState.getPasswordError()));
                 }
 
+                Button btn1 = (Button) findViewById(R.id.login3);
+                btn1.setOnClickListener(new View.OnClickListener() {
+                    @Override
+                    public void onClick(View v) {
+                        Intent intent = new Intent (v.getContext(), Registro.class);
+                        startActivity(intent);
+                    }
+                });
+
                 Button btn = (Button) findViewById(R.id.login);
                 btn.setOnClickListener(new View.OnClickListener() {
                     @Override
                     public void onClick(View v) {
-                        Intent intent = new Intent (v.getContext(), Vendido_prod.class);
+                        Intent intent = new Intent (v.getContext(), Protuctos.class);
                         startActivity(intent);
                     }
                 });
