@@ -23,8 +23,11 @@ import android.widget.ProgressBar;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import com.example.agrotec.Met_page;
 import com.example.agrotec.R;
 import com.example.agrotec.Registro;
+import com.example.agrotec.Select_fecha;
+import com.example.agrotec.Vendido_prod;
 import com.example.agrotec.det_producto;
 import com.example.agrotec.ui.login.LoginViewModel;
 import com.example.agrotec.ui.login.LoginViewModelFactory;
@@ -63,7 +66,7 @@ public class LoginActivity extends AppCompatActivity {
                 btn.setOnClickListener(new View.OnClickListener() {
                     @Override
                     public void onClick(View v) {
-                        Intent intent = new Intent (v.getContext(), det_producto.class);
+                        Intent intent = new Intent (v.getContext(), Vendido_prod.class);
                         startActivity(intent);
                     }
                 });
