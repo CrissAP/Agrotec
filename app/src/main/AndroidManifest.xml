@@ -9,7 +9,11 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".Vendido_prod"></activity>
+        <activity android:name=".Protuctos"></activity>
+        <activity android:name=".Finalizacion_compra" />
+        <activity android:name=".Ubicacion_envio" />
+        <activity android:name=".metodo_adquisicion" />
+        <activity android:name=".Vendido_prod" />
         <activity android:name=".Met_page" />
         <activity android:name=".Select_fecha" />
         <activity
